@@ -1,3 +1,7 @@
+/**
+ * 二进制间距
+ * @author cleverchen
+ *
  */
 public class BinaryGap {
 	public int binaryGap(int N) {
