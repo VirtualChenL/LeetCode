@@ -10,9 +10,9 @@ import java.util.List;
 public class NumbersDisappeared {
 	public List<Integer> findDisappearedNumbers(int[] nums) {
 		List<Integer> list=new LinkedList<>();
-		for(int i=0;i<nums.length;i++)
+		for(int i=0;i<nums.length;++i)
 		{
-			int k=Math.abs(nums[i]-1);
+			int k=Math.abs(nums[i])-1;
 			nums[k]=(nums[k]>0)? -nums[k] :nums[k];
 		}
 		for(int i=0;i<nums.length;i++)
