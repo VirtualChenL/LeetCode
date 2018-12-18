@@ -6,7 +6,7 @@
 public class ShuffleanArray {
 	 private int[] orgn;
 	 private int[] cur;
-	 public Solution(int[] nums) {
+	 public ShuffleanArray(int[] nums) {
 	        orgn=nums;
 	    }
 	    
